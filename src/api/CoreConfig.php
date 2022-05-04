@@ -5,7 +5,7 @@
 
 // データベースにアクセスするための設定
 $_wmsGlobal["database"]["dsn"] = "mysql:host=localhost; dbname=web_music_server; charset=utf8";
-$_wmsGlobal["database"]["user"] = "root";
+$_wmsGlobal["database"]["user"] = "root";   // rootにパスワードなしは色々まずいので変えましょう。
 $_wmsGlobal["database"]["password"] = "";
 
 // 音声ファイルと認識する拡張子
